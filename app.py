@@ -7,7 +7,7 @@ running app: a scoped, working feature with one part that isn't finished yet.
 Run with: streamlit run app.py
 """
 
-import streamlit as st
+import streamlit as st  # type: ignore[import-not-found]
 
 from scoring import render_session_scorer_tab
 from sessions import render_session_log_tab
